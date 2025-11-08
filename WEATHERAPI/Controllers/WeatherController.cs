@@ -10,6 +10,7 @@ using System.Net.Sockets;
 using System.Text.Json;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace MyApp.Namespace
 {
@@ -26,6 +27,7 @@ namespace MyApp.Namespace
         }
 
         [HttpGet("weather/{city}")]
+        [EnableRateLimiting("fixed")]
         public async Task<IActionResult> GetWeather(string city)
         {
             if (redis.GetValue(city) == null)

@@ -36,3 +36,4 @@
 /home/bennedistus/Documents/PROJECT/ROADMAP-SH/WEATHERAPI/bin/Debug/net9.0/StackExchange.Redis.dll
 /home/bennedistus/Documents/PROJECT/ROADMAP-SH/WEATHERAPI/bin/Debug/net9.0/StackExchange.Redis.StrongName.dll
 /home/bennedistus/Documents/PROJECT/ROADMAP-SH/WEATHERAPI/bin/Debug/net9.0/Newtonsoft.Json.dll
+/home/bennedistus/Documents/PROJECT/ROADMAP-SH/WEATHERAPI/obj/Debug/net9.0/WeatherAPI.sourcelink.json
